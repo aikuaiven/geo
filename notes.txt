@@ -1,0 +1,8 @@
+(defclass скважина ()
+  ((имя :initarg :имя :accessor имя :initform nil :type 'string :documentation "Выводимое имя скважины")
+   (дата :initarg :дата :accessor дата :initform nil :type 'list :documentation "Дата бурения")
+   (координаты :initarg :координаты :accessor координаты :initform nil :type 'list :documentation "Координаты скважины")
+   (площадка :initarg :площадка :accessor площадка :initform nil :type 'string :documentation "Площадка, на которой находится скважина")
+   (профили :initarg :профили :accessor профили :initform nil :type 'list :documentation "Список профилей, на которых находится скважина")
+   (объект :initarg :объект :accessor объект :initform nil :type 'string :documentation "Площадка, на которой находится скважина")
+   (слои :initarg :слои :accessor слои :initform nil :type 'list :documentation "Список слоев скважины")))
